@@ -1,0 +1,140 @@
+Script started on Monday 03 February 2020 10:43:36 AM IST
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:15:58:19:24:07  
+          inet addr:192.168.0.115  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::215:58ff:fe19:2407/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:138129 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6834 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:19466045 (19.4 MB)  TX bytes:851512 (851.5 KB)
+          Interrupt:17 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:254 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:254 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:28997 (28.9 KB)  TX bytes:28997 (28.9 KB)
+
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ ifconfif[Kg -a
+eth0      Link encap:Ethernet  HWaddr 00:15:58:19:24:07  
+          inet addr:192.168.0.115  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::215:58ff:fe19:2407/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:138449 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6834 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:19508316 (19.5 MB)  TX bytes:851512 (851.5 KB)
+          Interrupt:17 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:254 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:254 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:28997 (28.9 KB)  TX bytes:28997 (28.9 KB)
+
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.0.0     0.0.0.0         255.255.254.0   U     1      0        0 eth0
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ route add default gw 1 92.168.1.10
+SIOCADDRT: Operation not permitted
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ pl[Kim[Kng
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ ping 192.168.1.10
+PING 192.168.1.10 (192.168.1.10) 56(84) bytes of data.
+From 192.168.0.115 icmp_seq=1 Destination Host Unreachable
+From 192.168.0.115 icmp_seq=2 Destination Host Unreachable
+From 192.168.0.115 icmp_seq=3 Destination Host Unreachable
+From 192.168.0.115 icmp_seq=4 Destination Host Unreachable
+From 192.168.0.115 icmp_seq=5 Destination Host Unreachable
+From 192.168.0.115 icmp_seq=6 Destination Host Unreachable
+From 192.168.0.115 icmp_seq=7 Destination Host Unreachable
+From 192.168.0.115 icmp_seq=8 Destination Host Unreachable
+From 192.168.0.115 icmp_seq=9 Destination Host Unreachable
+^Z
+[1]+  Stopped                 ping 192.168.1.10
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ [K]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ ping 192.168.1.10[Kroute add default gw 192.168.1.10-n[K[Kifconfig -a[K[4Pexitcd ceccs18c38sftp cs18c38@192.168.0.30exit[Kcd 2701sftp cs18c38@192.168.0.30[K[9Pcd 2701cs232eccs18c38[K]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ cd ceccs18c38[K[K[K[K[K[K[K[K[K[K[K[K[Kcat/etc/resolve[K.com[Km[Knf
+bash: cat/etc/resolv.conf: No such file or directory
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ echo"nameserver 1.1.1.1".[K>>resolv.conf
+echonameserver 1.1.1.1: command not found
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ route add default gw 192.168.0.2
+SIOCADDRT: Operation not permitted
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ ssh cs [K18c38@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c38@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c38@192.168.0.30's password: 
+
+[2]+  Stopped                 ssh cs18c38@192.168.0.30
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ scp report.txt
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ scp report.txtsh cs18c38@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c38@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c38@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+$ ls
+cs232  examples.desktop
+$ exit
+Connection to 192.168.0.30 closed.
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ ssh cs18c38@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c38@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c38@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb  3 11:11:00 2020 from 192.168.0.115
+$ ls
+cs232  examples.desktop
+$ cd/
+-sh: 2: cd/: not found
+$ cd /
+$ ls
+bin   cdrom  dev  home	      lib    lib64	 media	opt   root  sbin  srv  tmp  var
+boot  core   etc  initrd.img  lib32  lost+found  mnt	proc  run   snap  sys  usr  vmlinuz
+$ exit
+Connection to 192.168.0.30 closed.
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ cat>abc.txt
+test file
+]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2-AcerPower-Series:~/ceccs18c38/cs232/0302$ [K]0;ceclab2@ceclab2-AcerPower-Series: ~/ceccs18c38/cs232/0302ceclab2@ceclab2
