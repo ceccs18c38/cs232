@@ -1,0 +1,55 @@
+CEC CS 18 c38
+Margret Jaison
+
+#1: LINUX COMMANDS
+
+BASIC COMMANDS
+
+Input & Output 
+
+mkdir ceccs18c38
+cd ceccs18c38
+mkdir cs232
+mkdir 2701
+cd 2701
+script work.txt
+ ls
+work.txt
+cat>abc.txt
+apple
+mango
+orange
+-ls -a
+ abc.txt  Untitled Document  Untitled Document~  work.txt
+ls -s
+total 12
+cat>efg.txt
+5
+1
+7 
+3
+ls
+abc.txt  efg.txt  Untitled Document  Untitled Document~  work.txt
+ paste abc.txt efg.txt
+apple	5
+mango	1
+orange	7
+	3
+sort efg.txt
+1
+3
+5
+7
+cat abc.txt|grep apple
+apple
+cat abc.txt|sort -r
+orange
+mango
+apple
+cat abc.txt|grep -v p|sort -r
+orange
+mango
+
+
+
+
