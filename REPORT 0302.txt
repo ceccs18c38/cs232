@@ -55,9 +55,9 @@ rsync
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-ssh cs18c37@192.168.0.30 is used to open a secured connection to remote 
+ssh cs18c38@192.168.0.30 is used to open a secured connection to remote 
  
-scp abc.txt cs18c37@192.168.0.30:0302 is used to upload abc.txt to 0302
+scp abc.txt cs18c38@192.168.0.30:0302 is used to upload abc.txt to 0302
  
 rsync -av abc.txt is used to upload abc.txt to 0302
 -------------------
