@@ -1,0 +1,67 @@
+CEC CS 18 c38
+Margret Jaison
+
+--------------------------------
+#1: TASK 5
+---------------------------------
+Command/Shell script/Program name
+ftp usage
+---------------------------------
+
+
+
+--------------------------------
+Output: or Input & Output 
+
+sftp cs18c38@192.168.0.30(connect to host)
+.
+Connected to 192.168.0.30.
+sftp> put ftp.txt(upload ftp.txt)
+Uploading ftp.txt to /home/cs18c38/ftp.txt
+ftp.txt                                       100%    0     0.0KB/s   00:00    
+sftp> lcd ..(change local directory)
+sftp> lpwd(show present work directory)
+Local working directory: /home/s4c2/ceccs18c38/cs232
+sftp> rm ftp.txt(remove ftp.txt from host)
+Removing /home/cs18c38/ftp.txt
+sftp> quit(quit current ftp session)
+
+-------------------
+
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:task 2
+  SCRIPTING TASK
+
+s1 result into cgpa
+ 
+program name
+  /SX/script.sh
+
+Inputs
+ #result downloaded from ktu site
+ /SX? result-CHN.pdf
+ # student details file containing roll number
+ /SX/students.txt
+
+Output
+
+
+#file with cgpa/number of students failed 
+ /SX/cgpa.txt
+
+REMARKS
+"x" in SX is replaced by  1 or 2 according ton semester 
+
+#3:
+
+#4:
+
+#5:
+
+

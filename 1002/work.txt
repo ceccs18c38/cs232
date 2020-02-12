@@ -1,0 +1,261 @@
+Script started on Monday 10 February 2020 10:12:48 PM IST
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ cat>ftp.txt
+this is my file for uploadinf g^Z
+[1]+  Stopped                 cat > ftp.txt
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ sfto[Kp>[K cs18c38@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c38@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put ftp.txt
+Uploading ftp.txt to /home/cs18c38/ftp.txt
+ftp.txt                                       100%    0     0.0KB/s   00:00    
+sftp> lcd..
+Invalid command.
+sftp> lcd ..
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c38/cs232
+sftp> rm work.txt[K[K[K[K[K[K[K[Kftp.txt
+Removing /home/cs18c38/ftp.txt
+sftp> qi[Kuit
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ nano script.sh
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6              File: script.sh                                   [22;35H[ New File ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[0m[32m}[4d[39m(B[mcgpa [32m=[39m(B[m sum/9[5d[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[6d[39m(B[mprintf[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[7d}[8dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[9d[39m(B[mprintf[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[10d}[11d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[12d[36m# adds name and roll no[13d[39m(B[mjoin students.txt cgpa_raw.txt [32m>[39m(B[m cgpa.txt[14d[36m# Removes temperory files used to process[15d(B[0;1m[34mrm[39m(B[m result.txt[16d(B[0;1m[34mrm[39m(B[m result_cs.txt[17d(B[0;1m[34mrm[39m(B[m result_na.txt[18d(B[0;1m[34mrm[39m(B[m result_nn.txt[19d(B[0;1m[34mrm[39m(B[m gp.txt[20d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[22d[K[20;16H[19;10H[18;16H[A[A[A[14;16H[A[A[A[A[C[9;16H[A[A[C[6;16H[A[A[A[C[2;21r[2;1H[10T[1;24r[3;1Hflag [32m=[39m(B[m 0[4dfails [32m=[39m(B[m 0[5d[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[6d{[7dif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[8d{[9d[39m(B[mflag [32m=[39m(B[m 1[10dfails [32m=[39m(B[m fails + 1[11d[32m}[12d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[39m(B[m[A[C[10;16H[9;9H[A[C[7;14H[A[C[5;16H[4;10H[A[2;21r[2;1H[10T[1;24r[3;1H(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[4d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[5d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[6d[36m# Seperates gradepoints[7d[39m(B[mawk '[32m{[8d[39m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$11[39m(B[m,(B[0;1m[31m$13[39m(B[m,(B[0;1m[31m$15[39m(B[m,(B[0;1m[31m$17[39m(B[m,(B[0;1m[31m$19[9d(B[0m[32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[10d[36m# Computes CGPA and counts subjects failed in[11d[39m(B[mawk '[32m{[12d[39m(B[msum [32m=[39m(B[m 0[A[10;16H[A[A[7;7H[6;16H[A[A[A[2;21r[2;1H[10T[1;24r[3;1Htr (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[4d[36m# Convert Grades to Grade Points[5d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[6d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[7d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[8d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[9d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[10d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[11d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[12d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[12;16H[A[A[A[A[A[A[A[A[A[2;21r[2;1H[10T[1;24r[3;1Hclear[4d[36m# Coverts .pdf to .txt[5d[39m(B[mpdftotext -layout result_CHN.pdf result_CHN.txt[6d[36m# Separates out results of CS students[7d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[8d[36m# Cleans up and arranges the data in organised manner[9d[39m(B[mtr (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[10d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[11dawk (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[12d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[12;16H[A[A[A[A[A[A[A[A[3;6H[4;16H[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;1H(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[13d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[14d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[15d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[16d[36m# Seperates gradepoints[17d[39m(B[mawk '[32m{[18d[39m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$11[39m(B[m,(B[0;1m[31m$13[39m(B[m,(B[0;1m[31m$15[39m(B[m,(B[0;1m[31m$17[39m(B[m,(B[0;1m[31m$19[19d(B[0m[32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[20d[36m# Computes CGPA and counts subjects failed in[21d[39m(B[mawk '[32m{[12;16H[39m(B[m[13d[14d[15d[16d[17;7H[18;16H[19d[20d[21;7H7[3;22r8[22d[10S[1;24r[12;1Hsum [32m=[39m(B[m 0[13dflag [32m=[39m(B[m 0[14dfails [32m=[39m(B[m 0[15d[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[16d{[17dif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[18d{[19d[39m(B[mflag [32m=[39m(B[m 1[20dfails [32m=[39m(B[m fails + 1[21d[32m}[12;8H[39m(B[m[13d0[14d0[15;16H[16;2H[17;14H[18;2H[19;9H[20;16H[21;2H7[3;22r8[22d[10S[1;24r[12;1Hsum +[32m=[39m(B[m (B[0;1m[31m$var[13d(B[0m[32m}[14d[39m(B[mcgpa [32m=[39m(B[m sum/9[15d[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[16d[39m(B[mprintf[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[17d}[18dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[19d[39m(B[mprintf[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[20d}[21d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[12;12H[13;2H[14;13H[15;16H[16d[17;2H[18;16H[19d[20;2H[21;16H7[3;22r8[22d[10S[1;24r[12;1H[36m# adds name and roll no[13d[39m(B[mjoin students.txt cgpa_raw.txt [32m>[39m(B[m cgpa.txt[14d[36m# Removes temperory files used to process[15d(B[0;1m[34mrm[39m(B[m result.txt[16d(B[0;1m[34mrm[39m(B[m result_cs.txt[17d(B[0;1m[34mrm[39m(B[m result_na.txt[18d(B[0;1m[34mrm[39m(B[m result_nn.txt[19d(B[0;1m[34mrm[39m(B[m gp.txt[20d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[12;16H[13d[14d[15d[16dtx[17d[18d[19;10H[20;16H[21d[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: script.sh                               [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[22;30H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 58 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ chmodnano script.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[Kchmod 777 script.sh
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ ./script.sh
+[H[2Jjoin: students.txt: No such file or directory
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ st[K[K./script.sh
+[H[2Jjoin: students.txt: No such file or directory
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ ./script.shchmod 777 script.sh[5Pnano[C[C[C[C[C[C[C[C[C[Csftp cs18c38@192.168.0.30[14Pcat>ftp.txt[7Pexitcat>ftp.txtscript work.txt[8Pcd 1002cs232eccs18c38[5Pifconfig[4Pexitcat>ftp.txtls[Kscript work.txt[8Pcd 1002cs232eccs18c38pwd[Kexitcat>abc.txtscript ftp.txtexit[Kcat>ftp.txtls[Kscript work.txtexit[Ksftp cs18c38@192.168.0.30[14Pcat>ftp.txtscript work.txt[8Pcd 1002[3@mkdir[C[C[C[C[C[2Pcd cs232[3@mkdir[C[C[C[C[C[Ccd ceccs18c38[5Ps232[3@mkdir[C[C[C[C[C[Ceccs18c38[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kchmod  777
+chmod: missing operand after `777'
+Try `chmod --help' for more information.
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ chmod 777 script.t[Ksh
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ ./chmod 777 script.sh 777[K./script.sh
+[H[2Jjoin: students.txt: No such file or directory
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ ./script.shchmod 777 script.sh
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ chmod 777 script.sh[8P./script.sh
+[H[2J]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ cd resui[Klt-CHN.txt
+bash: cd: result-CHN.txt: No such file or directory
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ ifcog[Kfigure
+ifcofigure: command not found
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ ifcofigure[K[K[K[K[K[Knfigure
+ifconfigure: command not found
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ ifconfigure[K[K[K[Kg
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:40:ca:46  
+          inet addr:192.168.0.205  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::1278:d2ff:fe40:ca46/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:271244 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10177 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:28929226 (28.9 MB)  TX bytes:1339930 (1.3 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:812 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:812 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:55836 (55.8 KB)  TX bytes:55836 (55.8 KB)
+
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.419 ms
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.218 ms
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.210 ms
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.189 ms
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.396 ms
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.191 ms
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.216 ms
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.272 ms
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.285 ms
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.160 ms
+64 bytes from 192.168.0.2: icmp_req=13 ttl=64 time=0.170 ms
+64 bytes from 192.168.0.2: icmp_req=14 ttl=64 time=0.217 ms
+64 bytes from 192.168.0.2: icmp_req=15 ttl=64 time=0.225 ms
+64 bytes from 192.168.0.2: icmp_req=16 ttl=64 time=0.204 ms
+64 bytes from 192.168.0.2: icmp_req=17 ttl=64 time=0.243 ms
+64 bytes from 192.168.0.2: icmp_req=18 ttl=64 time=0.226 ms
+64 bytes from 192.168.0.2: icmp_req=19 ttl=64 time=0.226 ms
+64 bytes from 192.168.0.2: icmp_req=20 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.2: icmp_req=21 ttl=64 time=0.166 ms
+64 bytes from 192.168.0.2: icmp_req=22 ttl=64 time=0.217 ms
+64 bytes from 192.168.0.2: icmp_req=23 ttl=64 time=0.213 ms
+64 bytes from 192.168.0.2: icmp_req=24 ttl=64 time=0.210 ms
+64 bytes from 192.168.0.2: icmp_req=25 ttl=64 time=0.181 ms
+64 bytes from 192.168.0.2: icmp_req=26 ttl=64 time=0.177 ms
+64 bytes from 192.168.0.2: icmp_req=27 ttl=64 time=0.197 ms
+64 bytes from 192.168.0.2: icmp_req=28 ttl=64 time=0.181 ms
+64 bytes from 192.168.0.2: icmp_req=29 ttl=64 time=0.170 ms
+64 bytes from 192.168.0.2: icmp_req=30 ttl=64 time=0.162 ms
+64 bytes from 192.168.0.2: icmp_req=31 ttl=64 time=0.206 ms
+64 bytes from 192.168.0.2: icmp_req=32 ttl=64 time=0.221 ms
+64 bytes from 192.168.0.2: icmp_req=33 ttl=64 time=0.241 ms
+64 bytes from 192.168.0.2: icmp_req=34 ttl=64 time=0.217 ms
+64 bytes from 192.168.0.2: icmp_req=35 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_req=36 ttl=64 time=0.352 ms
+64 bytes from 192.168.0.2: icmp_req=37 ttl=64 time=0.298 ms
+64 bytes from 192.168.0.2: icmp_req=38 ttl=64 time=0.283 ms
+64 bytes from 192.168.0.2: icmp_req=39 ttl=64 time=0.375 ms
+64 bytes from 192.168.0.2: icmp_req=40 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.2: icmp_req=41 ttl=64 time=0.280 ms
+64 bytes from 192.168.0.2: icmp_req=42 ttl=64 time=0.284 ms
+64 bytes from 192.168.0.2: icmp_req=43 ttl=64 time=0.247 ms
+64 bytes from 192.168.0.2: icmp_req=44 ttl=64 time=0.193 ms
+64 bytes from 192.168.0.2: icmp_req=45 ttl=64 time=0.248 ms
+64 bytes from 192.168.0.2: icmp_req=46 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.2: icmp_req=47 ttl=64 time=0.185 ms
+64 bytes from 192.168.0.2: icmp_req=48 ttl=64 time=0.268 ms
+64 bytes from 192.168.0.2: icmp_req=49 ttl=64 time=0.190 ms
+64 bytes from 192.168.0.2: icmp_req=50 ttl=64 time=0.211 ms
+64 bytes from 192.168.0.2: icmp_req=51 ttl=64 time=0.283 ms
+64 bytes from 192.168.0.2: icmp_req=52 ttl=64 time=0.285 ms
+64 bytes from 192.168.0.2: icmp_req=53 ttl=64 time=0.225 ms
+64 bytes from 192.168.0.2: icmp_req=54 ttl=64 time=0.372 ms
+64 bytes from 192.168.0.2: icmp_req=55 ttl=64 time=0.210 ms
+64 bytes from 192.168.0.2: icmp_req=56 ttl=64 time=0.162 ms
+64 bytes from 192.168.0.2: icmp_req=57 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_req=58 ttl=64 time=0.230 ms
+64 bytes from 192.168.0.2: icmp_req=59 ttl=64 time=0.214 ms
+64 bytes from 192.168.0.2: icmp_req=60 ttl=64 time=0.182 ms
+64 bytes from 192.168.0.2: icmp_req=61 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_req=62 ttl=64 time=0.177 ms
+64 bytes from 192.168.0.2: icmp_req=63 ttl=64 time=0.178 ms
+64 bytes from 192.168.0.2: icmp_req=64 ttl=64 time=0.298 ms
+64 bytes from 192.168.0.2: icmp_req=65 ttl=64 time=0.235 ms
+64 bytes from 192.168.0.2: icmp_req=66 ttl=64 time=0.261 ms
+64 bytes from 192.168.0.2: icmp_req=67 ttl=64 time=0.235 ms
+64 bytes from 192.168.0.2: icmp_req=68 ttl=64 time=0.185 ms
+64 bytes from 192.168.0.2: icmp_req=69 ttl=64 time=0.193 ms
+64 bytes from 192.168.0.2: icmp_req=70 ttl=64 time=0.222 ms
+64 bytes from 192.168.0.2: icmp_req=71 ttl=64 time=0.281 ms
+64 bytes from 192.168.0.2: icmp_req=72 ttl=64 time=0.291 ms
+64 bytes from 192.168.0.2: icmp_req=73 ttl=64 time=0.280 ms
+64 bytes from 192.168.0.2: icmp_req=74 ttl=64 time=0.284 ms
+64 bytes from 192.168.0.2: icmp_req=75 ttl=64 time=0.252 ms
+64 bytes from 192.168.0.2: icmp_req=76 ttl=64 time=0.449 ms
+64 bytes from 192.168.0.2: icmp_req=77 ttl=64 time=0.243 ms
+64 bytes from 192.168.0.2: icmp_req=78 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.2: icmp_req=79 ttl=64 time=0.265 ms
+64 bytes from 192.168.0.2: icmp_req=80 ttl=64 time=0.270 ms
+64 bytes from 192.168.0.2: icmp_req=81 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_req=82 ttl=64 time=0.164 ms
+64 bytes from 192.168.0.2: icmp_req=83 ttl=64 time=0.294 ms
+64 bytes from 192.168.0.2: icmp_req=84 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_req=85 ttl=64 time=0.173 ms
+64 bytes from 192.168.0.2: icmp_req=86 ttl=64 time=0.184 ms
+64 bytes from 192.168.0.2: icmp_req=87 ttl=64 time=0.162 ms
+64 bytes from 192.168.0.2: icmp_req=88 ttl=64 time=0.147 ms
+64 bytes from 192.168.0.2: icmp_req=89 ttl=64 time=0.174 ms
+64 bytes from 192.168.0.2: icmp_req=90 ttl=64 time=0.250 ms
+64 bytes from 192.168.0.2: icmp_req=91 ttl=64 time=0.167 ms
+64 bytes from 192.168.0.2: icmp_req=92 ttl=64 time=0.186 ms
+64 bytes from 192.168.0.2: icmp_req=93 ttl=64 time=0.183 ms
+64 bytes from 192.168.0.2: icmp_req=94 ttl=64 time=0.164 ms
+64 bytes from 192.168.0.2: icmp_req=95 ttl=64 time=0.191 ms
+64 bytes from 192.168.0.2: icmp_req=96 ttl=64 time=0.169 ms
+64 bytes from 192.168.0.2: icmp_req=97 ttl=64 time=0.204 ms
+64 bytes from 192.168.0.2: icmp_req=98 ttl=64 time=0.208 ms
+64 bytes from 192.168.0.2: icmp_req=99 ttl=64 time=0.216 ms
+64 bytes from 192.168.0.2: icmp_req=100 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.2: icmp_req=101 ttl=64 time=0.208 ms
+64 bytes from 192.168.0.2: icmp_req=102 ttl=64 time=0.141 ms
+64 bytes from 192.168.0.2: icmp_req=103 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_req=104 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_req=105 ttl=64 time=0.211 ms
+64 bytes from 192.168.0.2: icmp_req=106 ttl=64 time=0.194 ms
+64 bytes from 192.168.0.2: icmp_req=107 ttl=64 time=0.152 ms
+64 bytes from 192.168.0.2: icmp_req=108 ttl=64 time=0.173 ms
+64 bytes from 192.168.0.2: icmp_req=109 ttl=64 time=0.175 ms
+64 bytes from 192.168.0.2: icmp_req=110 ttl=64 time=0.184 ms
+64 bytes from 192.168.0.2: icmp_req=111 ttl=64 time=0.159 ms
+64 bytes from 192.168.0.2: icmp_req=112 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_req=113 ttl=64 time=0.164 ms
+64 bytes from 192.168.0.2: icmp_req=114 ttl=64 time=0.172 ms
+64 bytes from 192.168.0.2: icmp_req=115 ttl=64 time=0.197 ms
+64 bytes from 192.168.0.2: icmp_req=116 ttl=64 time=0.178 ms
+64 bytes from 192.168.0.2: icmp_req=117 ttl=64 time=0.214 ms
+64 bytes from 192.168.0.2: icmp_req=118 ttl=64 time=0.161 ms
+64 bytes from 192.168.0.2: icmp_req=119 ttl=64 time=0.206 ms
+64 bytes from 192.168.0.2: icmp_req=120 ttl=64 time=0.183 ms
+64 bytes from 192.168.0.2: icmp_req=121 ttl=64 time=0.169 ms
+64 bytes from 192.168.0.2: icmp_req=122 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_req=123 ttl=64 time=0.141 ms
+64 bytes from 192.168.0.2: icmp_req=124 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_req=125 ttl=64 time=0.232 ms
+64 bytes from 192.168.0.2: icmp_req=126 ttl=64 time=0.192 ms
+64 bytes from 192.168.0.2: icmp_req=127 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.2: icmp_req=128 ttl=64 time=0.207 ms
+64 bytes from 192.168.0.2: icmp_req=129 ttl=64 time=0.182 ms
+64 bytes from 192.168.0.2: icmp_req=130 ttl=64 time=0.205 ms
+64 bytes from 192.168.0.2: icmp_req=131 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_req=132 ttl=64 time=0.145 ms
+64 bytes from 192.168.0.2: icmp_req=133 ttl=64 time=0.247 ms
+64 bytes from 192.168.0.2: icmp_req=134 ttl=64 time=0.182 ms
+64 bytes from 192.168.0.2: icmp_req=135 ttl=64 time=0.206 ms
+64 bytes from 192.168.0.2: icmp_req=136 ttl=64 time=0.211 ms
+64 bytes from 192.168.0.2: icmp_req=137 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_req=138 ttl=64 time=0.166 ms
+64 bytes from 192.168.0.2: icmp_req=139 ttl=64 time=0.139 ms
+64 bytes from 192.168.0.2: icmp_req=140 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.2: icmp_req=141 ttl=64 time=0.207 ms
+64 bytes from 192.168.0.2: icmp_req=142 ttl=64 time=0.162 ms
+64 bytes from 192.168.0.2: icmp_req=143 ttl=64 time=0.219 ms
+64 bytes from 192.168.0.2: icmp_req=144 ttl=64 time=0.229 ms
+64 bytes from 192.168.0.2: icmp_req=145 ttl=64 time=0.214 ms
+64 bytes from 192.168.0.2: icmp_req=146 ttl=64 time=0.221 ms
+64 bytes from 192.168.0.2: icmp_req=147 ttl=64 time=0.189 ms
+64 bytes from 192.168.0.2: icmp_req=148 ttl=64 time=0.201 ms
+64 bytes from 192.168.0.2: icmp_req=149 ttl=64 time=0.144 ms
+64 bytes from 192.168.0.2: icmp_req=150 ttl=64 time=0.184 ms
+64 bytes from 192.168.0.2: icmp_req=151 ttl=64 time=0.225 ms
+^Z
+[2]+  Stopped                 ping 192.168.0.2
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ exit
+exit
+There are stopped jobs.
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ sftp cs18c38@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c38@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mkdir100[K[K[K 1002
+sftp> put work.txt
+Uploading work.txt to /home/cs18c38/work.txt
+work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100%   20KB  20.0KB/s   00:00    
+sftp> put report.txt
+Uploading report.txt to /home/cs18c38/report.txt
+report.txt                                      0%    0     0.0KB/s   --:-- ETAreport.txt                                    100% 1180     1.2KB/s   00:00    
+sftp> ls
+0302                1002                cs232               examples.desktop    
+report.txt          work.txt            
+sftp> rm work.txt
+Removing /home/cs18c38/work.txt
+sftp> rm report.txt
+Removing /home/cs18c38/report.txt
+sftp> ls
+0302                1002                cs232               examples.desktop    
+sftp> ls[K[Kcd 1002
+^[[B^Z
+[3]+  Stopped                 sftp cs18c38@192.168.0.30
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Veriton-Series:~/ceccs18c38/cs232/1002$ sftp cs18c38@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c38@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mkdir 1002
+Couldn't create directory: Failure
+sftp> mkdir 100[K2
+^Z
+[4]+  Stopped                 sftp cs18c38@192.168.0.30
+]0;s4c2@lab2-Veriton-Series: ~/ceccs18c38/cs232/1002s4c2@lab2-Ver
