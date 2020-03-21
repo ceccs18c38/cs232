@@ -1,0 +1,21 @@
+CEC CS 18 c38
+MARGRET JAISON
+20 03 2020
+
+MAC ADDRESS:80:a5:89:29:d2:e1
+#1: Aim/task
+ TASK6
+Command/Shell script/Program name
+
+LINUX INSTALLATION
+
+
+Output: or Input & Output 
+
+Linux system has installed sucessfully with partition 98.4gb
+
+Remarks if any:
+
+photos are uploaded which shows the various steps in installation.
+
+
