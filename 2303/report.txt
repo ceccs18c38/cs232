@@ -1,0 +1,46 @@
+CEC CS 18 C38
+MARGRET JAISON
+23 03 2020
+MAC ADDRESS :80:a5:89:29:d2:e1
+
+#1: Aim/task
+
+   TASK 8.2
+
+Command/Shell script/Program name
+
+   PERL
+
+Input: 
+
+   *name.pl
+
+   *mul.pl
+   
+   *fact.pl  
+
+Output: 
+
+   * name.pl : May i take your name please?
+               MARGRET JAISON
+               thank you,MARGRET JAISON
+
+
+   *mul.pl   : enter 2 numbers
+                4
+                3
+               the product is,12
+  
+   *fact.pl  : enter the limit
+                5
+               the factorial is ,120
+
+Remarks if any:
+
+
+
+
+
+
+
+

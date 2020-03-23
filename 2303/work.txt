@@ -1,0 +1,109 @@
+Script started on 2020-03-23 08:11:23+0530
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit name.pl
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ perl name.pl
+may i take your name please?m MARGRET JAISON
+thank you,MARGRET JAISON
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ GEDIT[K[K[K[K[Kgedit mul.pl
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit mul.plperl name.pl[K[K[K[K[K[K[Kmil[K[Kul.pl
+enter 2 numbers5 
+5
+the product is 0]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ perl mul.pl[1@gedit[C[C[C[C[C[C[Cperl name.pl[1@gedit[C[C[C[C[C[C[C[Cssh cs18c38@14.139.189.217 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cftp cs18c38@14.139.189.217
+7[A
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ ifconfig[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript work.txt[8Pcd 2203cs232eccs18c38[2Pexit scriptsudo apt list >package.txt 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-get autoremoveapt-get install -s apache2 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo dpkg-reconfigure apach
+he2[A
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ [C[C[C[C[Capt-get install apache[1P2[A
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ [C[C[C[C[C[C[C[C[3P remove tasksel
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-get install taskse
+el[A
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ [C[C[C[C[C[C[C[C[6P remove nmap
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@-get install[C[C[C[C[C[4P full-upgrade[7Papt-get updatesudo apt full-upgrade[1P-get upgrade[1Pdate[4Pcript work.txt[8Pcd 2103[3@mkdir[C[C[C[C[C[2Pcd cs232eccs18c38gedit 2103.pl[1Pcd Documentsdocuments..[K[2Ppwdcd -[1Ppwdcd /[K[K[K[Kgedit mul/[K.pl
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit mul.pl[1Pperl[C[C[C[C[C[C[C
+enter 2 numbers
+5 4
+5
+
+the product is 25]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ perl mul.pl[1@gedit[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[Cperl name.pl[1@gedit[C[C[C[C[C[C[C[Cssh cs18c38@14.139.189.217 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cftp cs18c38@14.139.189.217
+7[A
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ ifconfig[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript work.txt[8Pcd 2203[K[K[K[K[K[K[Kgr[Kedit mul.pl
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit mul.pl[1Pperl[C[C[C[C[C[C[C
+enter 2 numbers
+4
+3
+
+the product is 12]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ perl mul.pl[1@gedit[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kgedit mul.pl[1Pperl[C[C[C[C[C[C[C
+enter 2 numbers
+2
+7
+
+the product is 14]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit mul.pl
+^[[A^[[A^Z
+[1]+  Stopped                 gedit mul.pl
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit mul.pl[1Pperl[C[C[C[C[C[C[C
+enter 2 numbers
+6
+3
+
+the product is 
+18]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit fact.pi[Kl
+Failed to register: Timeout was reached
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit fact.pl
+[1]+  Killed                  gedit mul.pl
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit fact.pl[2Pperl mul.pl[1P.pl[1P.pl[1P.plf.pla.plc.plt.pl
+enter the limit5
+factorial is,120
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ perl fact.pl[1@gedit[C[C[C[C[C[C[C[C[2Pperl mul.pl[1@gedit[C[C[C[C[C[C[C
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ gedit mul.plperl fact.pl[1@gedit[C[C[C[C[C[C[C[C[2Pperl mul.pl
+enter 2 numbers
+5
+9
+
+the product is ,45
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ ifconfig
+enp2s0f1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether f8:32:e4:d8:df:33  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1228  bytes 110916 (110.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1228  bytes 110916 (110.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.103  netmask 255.255.0.0  broadcast 192.168.255.255
+        inet6 fe80::384a:9846:634c:34e6  prefixlen 64  scopeid 0x20<link>
+        inet6 2409:4073:89:3274:8a3c:3838:41ad:49b4  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:4073:89:3274:878:b5fd:3a77:6aa0  prefixlen 64  scopeid 0x0<global>
+        ether 80:a5:89:29:d2:e1  txqueuelen 1000  (Ethernet)
+        RX packets 10554  bytes 6910814 (6.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 10136  bytes 1962704 (1.9 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/2303[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/2303[00m$ exit script
+exit
+bash: exit: script: numeric argument required
+
+Script done on 2020-03-23 08:57:40+0530
