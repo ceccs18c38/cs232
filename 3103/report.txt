@@ -1,0 +1,25 @@
+CEC CS 18 c38
+MARGRET JAISON
+31 03 2020
+
+MAC ADDRESS:80:a5:89:29:d2:e1
+
+#1: Aim/task
+ TASK6
+
+Command/Shell script/Program name
+
+LINUX INSTALLATION
+
+
+Output: or Input & Output 
+
+ #Downloaded linux iso file then i read that file with iso reader and copied to usb.Then i booted and do ubuntu installation. Linux system has installed sucessfully with partition 98.4gb
+
+ #update-grub  -To update the grub configuration
+
+Remarks if any:
+
+*photos are uploaded  in images file which shows the various steps in installation(1.jpg to 7.jpg).
+
+*capture.png -shows update grub action.
