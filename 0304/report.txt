@@ -1,0 +1,43 @@
+CEC CS 18 C38
+MARGRET JAISON
+03 APRIL 2020
+MAC ADDRESS:80:a5:89:29:d2:e1
+
+--------------------------------
+#1: Aim/task
+  
+  TASK7 
+
+Command/Shell script/Program name
+
+  CREATING HTTP AND FTP SERVER
+
+
+Input 
+
+   The various steps are:
+
+# install ftp server
+sudo apt-get install vsftpd
+
+# edit server configuration
+sudo gedit /etc/vsftpd.conf
+
+# connect to ftp on local server
+fpt localhost
+
+# install apache2
+sudo apt-get install apache2
+
+# edit HTML file
+sudo gedit /var/www/html/index.html
+
+--------------------------------
+Output:
+
+# ftp server available at 192.168.1.104
+
+# screenshot of webpage attached at
+capture.png
+
+#screenshot of ftp localhost is in screenshot.png

@@ -1,0 +1,116 @@
+Script started on 2020-04-03 10:59:10+0530
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo apt-grt[K[Ket install vsftp d
+[sudo] password for chittattu: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version (3.0.3-9build1).
+0 upgraded, 0 newly installed, 0 to remove and 53 not upgraded.
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo gedit /etc vsftpd.con f
+
+(gedit:2413): IBUS-[1;33mWARNING[0m **: [34m11:03:20.299[0m: The owner of /home/chittattu/.config/ibus/bus is not root!
+
+** (gedit:2413): [1;33mWARNING[0m **: [34m11:03:37.462[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo gedit /etc vsftpd.conff[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ vsftpd.conf[A]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+(gedit:2478): IBUS-[1;33mWARNING[0m **: [34m11:03:52.445[0m: The owner of /home/chittattu/.config/ibus/bus is not root!
+
+** (gedit:2478): [1;33mWARNING[0m **: [34m11:04:00.165[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+** (gedit:2478): [1;33mWARNING[0m **: [34m11:04:02.874[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo gedit /etc/ vsftpd.connf[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /etc/ vsftpd.conf[K[A]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ [C[C[C[C[C[C[C[C[C /etc/ vsftpd.conf [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@v[1@im /etc/ vsftpd.conf [A]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ [C[C[C[C[C[C[C[C[C /etc/ vsftpd.conff[A]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ [C[C[C[C[C[C[C[C[C
+
+sudo: vim: command not found
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo vim  /etc/ vsftpd.conff[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/etc/ vsftpd.conf [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+sudo: vim: command not found
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo vim /etc/ vsftpd.conf [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@g[1@ed /etc/ vsftpd.conf [A]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ [C[C[C[C[C[C[C[Ci /etc/ vsftpd.conff[A]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ [C[C[C[C[C[C[C[C[Ct /etc/ vsftpd.conf[A]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ [C[C[C[C[C[C[C[C[C[C
+
+
+(gedit:2526): IBUS-[1;33mWARNING[0m **: [34m11:04:46.114[0m: The owner of /home/chittattu/.config/ibus/bus is not root!
+
+** (gedit:2526): [1;33mWARNING[0m **: [34m11:04:55.817[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:chittattu): chittattu
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> e[Kls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rw-rw-r--    1 1000     1000         1333 Mar 31 17:30 31
+drwxr-xr-x    2 1000     1000         4096 Mar 31 16:57 Desktop
+drwxr-xr-x    2 1000     1000         4096 Mar 19 05:55 Documents
+drwxr-xr-x    2 1000     1000         4096 Mar 31 16:57 Downloads
+drwxr-xr-x    2 1000     1000         4096 Mar 20 21:29 Music
+drwxr-xr-x    2 1000     1000         4096 Apr 02 23:31 Pictures
+drwxr-xr-x    2 1000     1000         4096 Mar 19 05:55 Public
+-rw-rw-r--    1 1000     1000          355 Mar 23 08:18 REPORT
+drwxr-xr-x    2 1000     1000         4096 Mar 19 05:55 Templates
+drwxr-xr-x    2 1000     1000         4096 Mar 31 21:28 Videos
+drwxrw-r--    3 1000     1000         4096 Apr 02 23:41 ceccs18c38
+-rw-r--r--    1 1000     1000         8980 Mar 19 00:14 examples.desktop
+drwxr-xr-x    2 1000     1000         4096 Mar 19 22:14 joseph
+-rw-r--r--    1 1000     1000          793 Mar 21 10:40 out.txt
+drwxr-xr-x    2 1000     1000         4096 Mar 20 22:33 report.txt
+drwxr-xr-x    4 1000     1000         4096 Mar 21 11:54 snap
+226 Directory send OK.
+ftp> exit
+221 Goodbye.
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo apt-get install apach e2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 53 not upgraded.
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo gedit /var/www/html/i ndex.html
+
+(gedit:2583): IBUS-[1;33mWARNING[0m **: [34m11:06:13.548[0m: The owner of /home/chittattu/.config/ibus/bus is not root!
+
+** (gedit:2583): [1;33mWARNING[0m **: [34m11:15:37.157[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:2583): [1;33mWARNING[0m **: [34m11:15:37.157[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:2583): [1;33mWARNING[0m **: [34m11:15:40.875[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:2583): [1;33mWARNING[0m **: [34m11:15:40.876[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:2583): [1;33mWARNING[0m **: [34m11:15:42.509[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo gedit /var/www/html/inndex.html
+
+(gedit:2723): IBUS-[1;33mWARNING[0m **: [34m11:17:05.702[0m: The owner of /home/chittattu/.config/ibus/bus is not root!
+
+** (gedit:2723): [1;33mWARNING[0m **: [34m11:18:02.710[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:2723): [1;33mWARNING[0m **: [34m11:18:02.710[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:2723): [1;33mWARNING[0m **: [34m11:18:06.219[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:2723): [1;33mWARNING[0m **: [34m11:18:06.220[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:2723): [1;33mWARNING[0m **: [34m11:18:07.719[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ sudo gedit /var/www/html/inndex.html
+
+(gedit:2778): IBUS-[1;33mWARNING[0m **: [34m11:20:27.600[0m: The owner of /home/chittattu/.config/ibus/bus is not root!
+
+** (gedit:2778): [1;33mWARNING[0m **: [34m11:21:01.507[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:2778): [1;33mWARNING[0m **: [34m11:21:01.508[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:2778): [1;33mWARNING[0m **: [34m11:21:03.894[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ ls -l
+total 84
+-rw-rw-r-- 1 chittattu chittattu 77348 Apr  3 11:21 [0m[01;35mcapture.png[0m
+-rw-r--r-- 1 chittattu chittattu  8192 Apr  3 11:05 work.txt
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0304[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0304[00m$ exit script
+exit
+bash: exit: script: numeric argument required
+
+Script done on 2020-04-03 11:24:40+0530
