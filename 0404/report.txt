@@ -1,0 +1,67 @@
+CEC CS 18 C38
+MARGRET JAISON
+04 APRIL 2020
+MAC ADDRESS:80:a5:89:29:d2:e1
+
+--------------------------------
+#1: Aim/task
+  
+   TASK 8.3
+Command/Shell script/Program name
+
+ LAMP STACK
+
+Input: 
+     The various steps are:
+
+        * update list
+            sudo apt update
+
+
+        * install apache2
+            sudo apt-get install apache2
+
+
+        * install my-sql
+            sudo apt-get install MySQL-server
+
+
+	* to start MySQLserver
+           sudo service mysql start 
+
+
+
+        * PHP installation
+           sudo apt install php libapache2-mod-php php-mysql
+
+
+        * Creating PHP file info
+            nano info.php
+
+       
+        * Creating PHP file index
+            nano index.php
+
+  
+	*PHP version viewed through
+         http://localhost/info.php or 192.168.1.104/info.php
+
+--------------------------------
+Output: 
+
+#info.png: shows info.php file
+#index.png:shows index.php file
+#apache2.png: shows apache2 
+
+
+-------------------
+Remarks if any:
+
+ info.php and index.php files are attached.
+
+
+
+
+
+
+
