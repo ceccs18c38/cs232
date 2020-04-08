@@ -1,0 +1,94 @@
+Script started on 2020-04-07 11:36:19+0530
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0704[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0704[00m$ ./ncalc.sh
+ ......SIMPLE CALCULATOR.....
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+ press any key for EXIT
+what do you want?
+1
+...ADDITION..
+enter 1st number
+2
+enter 2nd no.
+7
+ Result is :9
+ ......SIMPLE CALCULATOR.....
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+ press any key for EXIT
+what do you want?
+2
+...SUBTRACTION..
+enter 1st number
+3
+enter 2nd no.
+9
+Result is :-6
+ ......SIMPLE CALCULATOR.....
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+ press any key for EXIT
+what do you want?
+3
+...MULTIPLICATION..
+enter 1st number
+4
+enter 2nd no.
+7
+Result is :28
+ ......SIMPLE CALCULATOR.....
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+ press any key for EXIT
+what do you want?
+4
+..DIVISION..
+enter 1st number
+9
+enter 2nd no.
+3
+Result is :3
+ ......SIMPLE CALCULATOR.....
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+ press any key for EXIT
+what do you want?
+5
+...MODULUS..
+enter 1st number
+8
+enter 2nd no.
+4
+Result is :0
+ ......SIMPLE CALCULATOR.....
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+ press any key for EXIT
+what do you want?
+9
+./ncalc.sh: line 65: stopping script: command not found
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0704[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0704[00m$ ./ncalc.sh^C
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0704[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0704[00m$ ^C
+]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0704[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0704[00m$ ^V[K[K]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0704[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0704[00m$ ./ncalc.sh[K]0;chittattu@chittattu-TP500LAB: ~/ceccs18c38/cs232/0704[01;32mchittattu@chittattu-TP500LAB[00m:[01;34m~/ceccs18c38/cs232/0704[00m$ ./ncalc.sh[Kexit script
+exit
+bash: exit: script: numeric argument required
+
+Script done on 2020-04-07 11:42:37+0530
