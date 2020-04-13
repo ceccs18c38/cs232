@@ -1,0 +1,89 @@
+CEC CS 18C38
+MARGRET JAISON
+11th april 2020
+mac address:80:a5:89:29:d2:e1
+ip address:192.168.1.104
+
+
+#1: Aim/task: S4
+
+Shell script to show various system configuration like 
+
+  * Currently logged user and his login name  
+  * Your current shell 
+  * Your home directory 
+  * Your operating system type 
+  * Your current path setting 
+  * Your current working directory 
+  * Number of users currently logged in
+
+---------------------------------------------------------------------------
+
+Command/Shell script/Program name
+
+--------------------------------------------------------------------------
+    # shell script
+        system1.sh
+
+    #To execute script file
+         ./system1.sh  
+ -------------------------------------------------------------------------
+
+Input and Output:
+-----------------------------------------------------------------------------
+
+ system1.png is attached to show various system configuration such as
+    
+  * Currently logged user and his login name  
+  * Your current shell 
+  * Your home directory 
+  * Your operating system type 
+  * Your current path setting 
+  * Your current working directory 
+  * Number of users currently logged in
+
+--------------------------------------------------------------------------------
+Remark if any
+
+--------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+#2: Aim/task: S5
+
+Shell script to show various system configuration like 
+    * OS and version, release number, kernel version 
+    * All available shells 
+    * Computer CPU information like processor type, speed etc 
+    * Memory information 
+    * Hard disk information like size of hard-disk, cache memory, model etc 
+    * File system (Mounted) 
+
+---------------------------------------------------------------------------
+
+Command/Shell script/Program name
+
+--------------------------------------------------------------------------
+    # shell script
+        system2.sh
+
+    #To execute script file
+        ./system2.sh  
+ -------------------------------------------------------------------------
+
+Input and Output:
+-----------------------------------------------------------------------------
+
+    system2.txt is attached to show system configuration such as
+    
+    * OS and version, release number, kernel version 
+    * All available shells 
+    * Computer CPU information like processor type, speed etc 
+    * Memory information 
+    * Hard disk information like size of hard-disk, cache memory, model etc 
+    * File system (Mounted) 
+
+
+--------------------------------------------------------------------------------
+Remark if any
+
+--------------------------------------------------------------------------------
